@@ -26,7 +26,7 @@ export default {
   display: inline-block;
   font-size: 3.3em;
   line-height: 67px;
-  width: 550px;
+  width: 560px;
 
   @media (max-width: 900px) {
     font-size: 2em;

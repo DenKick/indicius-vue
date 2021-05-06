@@ -57,5 +57,25 @@ a {
     align-items: center;
     display: flex;
   }
+
+  &__links > ul > li > a {
+    position: relative;
+
+  }
+
+  &__links > ul > li > a::before {
+    position: absolute;
+    bottom: -4px;
+    left: 0;
+    width: 0;
+    height: 2px;
+    background-color: #ffffff;
+    content: "";
+    transition: .3s ease-in;
+  }
+
+  &__links > ul > li > a:hover::before {
+    width: 100%;
+  }
 }
 </style>
