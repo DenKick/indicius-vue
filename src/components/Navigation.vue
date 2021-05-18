@@ -3,7 +3,7 @@
     <div class="wrapper wrapper-color">
       <div class="nav__container">
         <div class="nav__logo">
-          <a href="/"><img alt="Logo" src="../assets/Logo.png"></a>
+          <a href="/"><img alt="Logo" src="../assets/Logo.svg"></a>
         </div>
         <div class="nav__links">
           <ul>
@@ -48,7 +48,7 @@ a {
 .nav {
   &__container {
     display: flex;
-    font-family: 'Inter', sans-serif;
+    font-family: 'DM Sans', sans-serif;
     height: 80px;
     justify-content: space-between;
   }
