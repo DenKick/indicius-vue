@@ -1,14 +1,17 @@
 <template>
   <Header />
+  <Description />
 </template>
 
 <script>
 import Header from './components/Header';
+import Description from './components/Description';
 
 export default {
   name: 'App',
   components: {
-    Header
+    Header,
+    Description
   }
 }
 </script>
@@ -28,7 +31,7 @@ body {
 }
 
 #app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
+  font-family: 'DM Sans', Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
